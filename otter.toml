@@ -1,0 +1,9 @@
+name = "hello"
+image = "nginx:latest"
+port = 80
+instance = "t4g.small"
+region = "us-east-1"
+
+[volume]
+size_gb = 8
+mount = "/data"
